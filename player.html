@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="preload" href="https://content.jwplatform.com/libraries/foHt6P0J.js" as="script">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/p2p-media-loader-core@latest/build/p2p-media-loader-core.min.js" as="script">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/p2p-media-loader-hlsjs@latest/build/p2p-media-loader-hlsjs.min.js" as="script">
+      <link rel="preload" href="https://cdn.jsdelivr.net/npm/hls.js@0.14.17" as="script">
+      <title></title>
+   </head>
+   <body>
+      <style>body{margin-top:0;margin-bottom:0;background:#000}#video_container{max-width:100vw;width:100vw!important;height:100vh!important}#video{width:100vw!important;height:100vh!important;outline:0!important}video,video:focus{outline:0!important}</style>
+      <script async src="https://cdn.jsdelivr.net/npm/p2p-media-loader-core@latest/build/p2p-media-loader-core.min.js"></script><script>const URL_P2P_MEDIA_LOADER_HLSJS = "https://cdn.jsdelivr.net/npm/p2p-media-loader-hlsjs@latest/build/p2p-media-loader-hlsjs.min.js";</script>
+      <div id="video_container"></div>
+      <form id="videoUrlForm">
+        <script>
+        window.isKey = true
+        window.disableRetry = false
+        window.isRedirect = false
+        window.googleProxy = false
+        window.isSegments = '2';
+
+         // Get the current URL
+  const url = new URL(window.location.href);
+
+  // Create a URLSearchParams object based on the URL
+  const searchParams = url.searchParams;
+
+  // Get the values of specific parameters
+  const getm3u8 = searchParams.get("url");
+    </script>
+       <script>
+      const trackerAnnounce = ["wss://tracker.movie-117.online"];
+      const hls = getm3u8;
+      const image = '';
+</script>
+
+      <script src="https://main.doo4k.net/js/2024-v2.js" defer="defer"></script>  
+   </body>
+</html>
